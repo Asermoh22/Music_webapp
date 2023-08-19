@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+    <title>Wavebox</title>
+    <link rel="stylesheet" href="master.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+<div class="sidebar">
+    <div class="logo">
+        <a href="#">
+            <img src="original-a5d41ca9e8a7f18c0a24c8a2f9231f7f.jpg" alt="Logo"/>
+        </a>
+    </div>
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <span class="fa fa-home"></span>
+                    <span>Home</span>
+                   </a> 
+            </li>
+            
+            <li>
+                <a href="#">
+                 <span class="fa fa-search"></span>
+                 <span>Search</span>
+                </a> 
+             </li>
+
+             <li>
+                <a href="#">
+                 <span class=" fa fa-book"></span>
+                 <span>Your Library</span>
+                </a> 
+             </li>
+
+     
+        </ul>
+    </div>
+
+    <div class="navigation">
+        <ul>
+            <li>
+               <a href="#">
+                <span class="fa fa-plus-square"></span>
+                <span>Create playlist</span>
+               </a> 
+            </li>
+            
+            <li>
+                <a href="#">
+                 <span class="fa fa-heart"></span>
+                 <span>Liked songs</span>
+                </a> 
+             </li>
+
+             
+
+     
+        </ul>
+    </div>
+</div>
+<div class="main">
+    <img src="../Music App/316x316bb.png" alt="" class="i">
+    <div class="con">
+        <h2>Victory</h2>
+        <p>Cain Ducort</p>
+        
+        
+    </div>
+   
+</div>
+<div class="mma">
+    <div class="mm">
+    <img src="../Music App/316x316bb.png" >
+    <div class="play">
+         <div class="mar">
+            <v1 id="Vic">Victory</v1>
+        <p>Cain Ducort</p>
+         </div>
+        
+
+
+         <audio autoplay id="myAudio" class="fa-solid fa-play" src="./Cian_Ducrot_-_Victory_FlexyOkay.com.mp3" controls onclick="" type="audio/mpeg" ></audio>    
+
+         <button class="control-button1" id="backward-button">
+            <i class="fas fa-backward"></i>
+          </button>
+
+         <button class=" play-button" id="play-ic" onclick="toggleAudio()">  <i id="play-icon" class="fas fa-play"></i>
+         </button>
+
+         <button class="control-button2" id="forward-button" >
+            <i class="fas fa-forward"></i>
+          </button>
+          <div id="timer">0:00 / 0:00</div>
+          <div id="timeBarContainer">
+            <div id="timeBar">
+                <input type="range" min="0" max="100" value="100" id="duration_slider">
+            </div>
+
+
+          <div class="preview2">
+            <div class="text">
+                <h6>preview of wavebox</h6>
+                <p>Press play and let the music carry you away. Don't forget to engage Premium for an enhanced experience!</p>
+            </div>
+            
+        </div>
+  
+    </div>
+</div>
+<script src="./poe.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

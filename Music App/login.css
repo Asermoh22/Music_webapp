@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    
+  }
+
+.container{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 195px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+    
+}
+.container h2 {
+    text-align: center;
+  }
+
+  .container .insert{
+    width: 260px;
+    height: 36px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    color: black;
+    margin-bottom: 35px;
+    border: none;
+    box-shadow: 3px 3px 1px 1px #afb3c1;
+ }
+
+ .imgooo{
+    margin-top: 105px;
+    height: 600px;
+    width: 80%;
+    margin-left: 150px;
+    border: 3px;
+    background-image: url("./image_processing20200728-12939-1eulpx8.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+
+ .main-content{
+    
+    margin-bottom: 100px;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    padding: 14px 30px;
+}
+.topbar h2{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    margin-right: 10px;
+}
+
+.topbar .navbar{
+    display: flex;
+    align-items: center;
+}
+
+.topbar .navbar ul{
+   list-style: none;
+}
+.topbar .navbar ul li{
+display: inline-block;
+margin: 0px 8px;
+width: 70px;
+}
+
+.topbar .navbar ul li a{
+   color: #b3b3b3;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 14px;
+   letter-spacing: 1px;
+    }
+    
+.topbar .navbar ul li a:hover,
+.topbar .navbar ul li a:active,
+.topbar .navbar ul li a:focus{
+    color:#ffffff;
+    font-size: 15px;
+    
+}
+.topbar .navbar ul li.divider{
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+}
+.topbar .navbar button{
+    background-color: #90e2c4;;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+.topbar .navbar button:hover,
+.topbar .navbar button:active,
+.topbar .navbar button:focus{
+    background-color: #f2f2f2;
+}
+
+ .button{
+    width: 70%;
+    height: 45px;
+    border-radius: 8px;
+    background-color: rgb(129, 97, 112, 1);
+    color: black;
+    cursor: pointer;
+ }
+ 
+    .footerBootom{
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to right,#ae2896,#509bf5);
+        padding: 15px 40px;
+        display: flex;
+        justify-content: center;
+        margin-top: 130px;
+        margin-bottom: -97px;
+    }
+    
+    .footerBootom p{
+        color: white;
+    }
+    
+    .designer{
+        opacity: 0.7;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin: 0px 5px;
+    }
+    
+    @media(max-width:700px){
+        .footernav ul{
+            flex-direction: column;
+        }
+        .footernav ul li {
+            width: 100%;
+            text-align: center;
+            margin: 10px;
+    
+        }
+    }
+ 
